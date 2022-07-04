@@ -1,0 +1,13 @@
+1653162254528	geckodriver	INFO	Listening on 127.0.0.1:63482
+1653162255536	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zc/q9krzqkj1g3284_0s6wtxn400000gp/T/rust_mozprofileR1trIR"
+*** You are running in headless mode.
+1653162255878	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zc/q9krzqkj1g3284_0s6wtxn400000gp/T/rust_mozprofileR1trIR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1653162257055	Marionette	INFO	Listening on port 63499
+Read port: 63499
+1653162257095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653162263321	Marionette	INFO	Stopped listening on port 63499
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
